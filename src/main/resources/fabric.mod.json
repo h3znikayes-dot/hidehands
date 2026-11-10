@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "hidehands",
+	"version": "${version}",
+	"name": "Hide Hands",
+	"description": "Hold a key (default: F) to hide your first-person hands and held items.",
+	"authors": [],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.hidehands.HideHandsClient"
+		]
+	},
+	"mixins": [
+		"hidehands.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
